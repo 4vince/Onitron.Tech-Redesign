@@ -1,5 +1,15 @@
 # Omnitron.Tech Redesign - Plan (Prototype First)
 
+> **Update (2026-10-14) — Theme revision.** The design direction moved from a **dark** canvas
+> to a **warm off-white** editorial theme. The dark palette in §3 is superseded by the values
+> in `app/src/app/globals.css`. Summary of the change:
+> - **Canvas:** warm off-white `#f6f4f0`, white surfaces `#ffffff`, hairline borders `#e7e4dd`.
+> - **Type:** off-black `#17181a` (primary), `#5b5e66` (secondary), `#8f9298` (tertiary).
+> - **Accent:** single blue `#2b59e0` (`#1f47c6` hover), plus muted pastel tags.
+> - **Fonts:** Geist (sans) + Geist Mono (terminal accents) — replaced Inter.
+> - **Added:** brand logo + favicon (`src/app/icon.svg`), mobile nav, scroll reveals, custom 404,
+>   per-page metadata, shared service data (`src/data/services.ts`), skip-to-content link.
+
 **Status:** Detailed planning complete (wireframes + component spec). Ready to scaffold Next.js.  
 **Approach:** Prototype scope first (homepage + 2 business areas + contact + careers), blend Databricks layout with minimal terminal accents, SME-focused outcomes.
 
